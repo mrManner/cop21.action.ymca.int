@@ -1,0 +1,491 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 100%;
+    line-height: 1.4;
+    min-height: 100vh;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+        min-height: 100vh;
+        position: relative;
+        font: 100%/1.625em Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+ul ul {
+        font-size: 1em !important;
+}
+
+
+h1.title {
+    color: #0DA4D3;
+    font-size: 16pt;
+
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav {
+    width: 15.0em;
+    line-height: 1.15em;
+    font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+        display: block;
+        float: left;
+        width: 4.3em;
+        padding-left: 0.7em;
+        padding-right: 0.5em;
+        line-height: 0.85em;
+        background: transparent url(../img/menu-separator.png) no-repeat scroll left 15%;
+}
+
+nav li:first-child {
+        background: transparent none repeat scroll 0% 0%;
+        padding-right: 0;
+        width: 3.2em;
+}
+
+nav li a {
+
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #0DA4D3;
+}
+
+nav a:hover {
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.spacy {
+       display: none;
+}
+
+article {
+        max-width: 15em;
+        padding-bottom: 2em;
+}
+
+article header {
+        color: #888888 !important;
+}
+
+article header p {
+        font-size: 0.6em;
+        line-height: 1.2em;
+        font-style: italic;
+}
+
+article h1,
+article h2 {
+    border-bottom: thin solid #8DA4D3;
+}
+
+article h1 {
+    font-size: 1.2em;
+    padding-top: 2em;
+}
+
+article h2 {
+        font-size: 1em;
+}
+
+article p,
+article ul {
+        padding-bottom: 1em;
+        text-align: justify;
+        font-size: 0.7em;
+        line-height: 1.4em;
+}
+
+article ul ul {
+        padding-bottom: 0;
+}
+
+article li {
+        padding-bottom: 0.4em;
+}
+
+aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    min-height: 3em;
+}
+
+.footer-container footer {
+    color: white;
+    height: 100%;
+    min-height: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 3em;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        size: 2em;
+}
+
+footer p {
+        height: 1em;
+        padding-top: 0.8em;
+        padding-bottom: 1.2em;
+        margin: 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+        .ie7 .title {
+            padding-top: 20px;
+        }
+
+        /* ==========================================================================
+           Author's custom styles
+           ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ==========================================================================
+           Media Queries
+           ========================================================================== */
+
+        @media only screen and (max-width: 479px) {
+        .header-container {
+                    background-repeat: no-repeat;
+                    background-image: url(../img/mheader.jpg);
+                    padding-bottom: 5 em;
+        }
+
+        }
+
+        @media only screen and (min-width: 480px) {
+
+        /* ====================
+            INTERMEDIATE: Menu
+           ==================== */
+
+            nav a {
+                float: left;
+                width: 100%;
+                margin: 0 1.7%;
+                margin-bottom: 0;
+            }
+
+            nav li:first-child a {
+                margin-left: 0;
+            }
+
+            nav li:last-child a {
+                margin-right: 0;
+            }
+
+        /* ========================
+            INTERMEDIATE: Main
+           ======================== */
+
+        .header-container {
+                    background-image: url(../img/header.jpg) !important;
+                    background-repeat: no-repeat;
+                    padding-bottom: 5 em;
+                    background-size: contain;
+        }
+
+            
+        /* ========================
+            INTERMEDIATE: IE Fixes
+           ======================== */
+
+            nav ul li { 
+                display: inline;
+            }
+
+            .oldie nav a {
+                margin: 0 0.7%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+
+        /* ============
+            WIDE: Menu
+           ============ */
+
+            .title {
+                float: left;
+                padding-top: 1em;
+            }
+
+            nav {
+                width: 19em;
+                float: right;
+                padding-top: 1.8em;
+            }
+
+        nav li {
+                display: block;
+                float: left;
+                padding-left: 1.8em;
+                background: transparent url(../img/menu-separator.png) no-repeat scroll left 15%;
+            }
+
+
+        /* ============
+            WIDE: Main
+           ============ */
+
+            article {
+                        font-size: 1.2em;
+                        max-width: 22em;
+            }
+
+            article header h1 {
+                padding-top: 0;
+            
+            }
+
+            aside {
+            }
+        }
+
+        @media only screen and (min-width: 1140px) {
+
+        /* ===============
+            Maximal Width
+           =============== */
+
+            .wrapper {
+                width: 1026px; /* 1140px - 10% for margins */
+                margin: 0 auto;
+            }
+        }
+
+        /* ==========================================================================
+           Helper classes
+           ========================================================================== */
+
+        .hidden {
+            display: none !important;
+            visibility: hidden;
+        }
+
+        .visuallyhidden {
+            border: 0;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        .visuallyhidden.focusable:active,
+        .visuallyhidden.focusable:focus {
+            clip: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            position: static;
+            width: auto;
+        }
+
+        .invisible {
+            visibility: hidden;
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            content: " ";
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix {
+            *zoom: 1;
+        }
+
+        /* ==========================================================================
+           Print styles
+           ========================================================================== */
+
+        @media print {
+            *,
+            *:before,
+            *:after {
+                background: transparent !important;
+                color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
